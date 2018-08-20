@@ -1,0 +1,15 @@
+設定 Tomcat 中的虛擬路徑
+選modules後，旁邊有Add External Web Module，
+Document base 是本地端資料夾位置 ex: D:/tmpA/tmpB/
+Path 是程式中所寫的字串 ex: /picture/
+
+ex:
+結合 Html5 的 input 標籤可得到 sample.jpg，
+
+將 sample.jpg 存到 D:/tmpA/tmpB，
+FileUtils.copyInputStreamToFile(file.getInputStream(), new File( D:/tmpA/tmpB/sample.jpg ));
+
+顯示圖片的 jsp 宣告路徑為 /picture/sample.jpg
+<img src = "/picture/sample.jpg"/>
+
+
