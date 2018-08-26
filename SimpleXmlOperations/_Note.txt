@@ -1,0 +1,8 @@
+不論是 get 或 post 的 request，
+從 server 得到的 html，在上面所操作的動作都不影響原先的 jsp 了，
+若想要與 server 互動，必須透過 AJAX 或 form submit 重新發出 request
+
+XML本身是DOM，import org.w3c.dom.*;
+就可以在 java 中操作 Dom(XML) 了
+
+
