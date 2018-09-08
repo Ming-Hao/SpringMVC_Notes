@@ -1,0 +1,7 @@
+有bug，但目前不知道怎麼處理
+
+頁面左邊為textarea，右邊為iframe，
+
+iframe 固定 src 為 Tomcat 虛擬路徑下的 demo.html，
+運用 ajax 將 textarea 的 value post-request傳出去，
+將整段 value 覆蓋掉 demo.html，收到後 reload iframe 即可
